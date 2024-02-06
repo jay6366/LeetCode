@@ -61,5 +61,18 @@
 #### 사용한 자료구조 혹은 자료형
 - 배열의 요소를 반복문을 통해 순회하면서 저점을 먼저 확인 후 현재 값과 저점의 차이를 확인한다 => O(n) 풀이가 가능해짐.
 
+### 0234 palindrome-linked-list
+LinkedList<>(): LinkedList 클래스의 생성자입니다. Deque<Integer> 타입의 deque 객체를 생성할 때 사용됩니다. 이 메소드는 새로운 LinkedList 객체를 생성하고 초기화합니다.
+
+add(E e): Deque 인터페이스의 메소드입니다. 여기서는 deque.add(node.val) 형태로 사용되며, deque에 새로운 요소를 추가합니다. node.val은 연결 리스트의 현재 노드에서 값을 가져옵니다.
+
+pollFirst(): Deque 인터페이스의 메소드입니다. deque.pollFirst() 형태로 사용되며, 덱에서 첫 번째 요소를 제거하고 반환합니다. 이 메소드는 덱이 비어 있을 경우 null을 반환합니다.
+
+pollLast(): Deque 인터페이스의 메소드입니다. deque.pollLast() 형태로 사용되며, 덱에서 마지막 요소를 제거하고 반환합니다. 이 메소드도 덱이 비어 있을 경우 null을 반환합니다.
+
+isEmpty(): Deque 인터페이스의 메소드입니다. deque.isEmpty() 형태로 사용되며, 덱이 비어 있는지 여부를 확인합니다. 덱이 비어 있으면 true를, 그렇지 않으면 false를 반환합니다.
+
+size(): Deque 인터페이스의 메소드입니다. deque.size() 형태로 사용되며, 덱에 있는 요소의 수를 반환합니다.
+
 
 
