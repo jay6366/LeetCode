@@ -116,5 +116,12 @@ size(): Deque 인터페이스의 메소드입니다. deque.size() 형태로 사�
   (입력의 크기에 따라 메모리 사용량이 일정)
 
 ***
+### 0020-valid-parentheses
+#### 사용한 자료구조 혹은 자료형
+-스택 선언에 데크 자료형 사용함
+-매핑테이블을 만들어 놓고 닫힘 괄호가 아닌 경우 무조건 푸쉬, 팝했을 때 열림 괄호가 아닌 경우 false를 리턴
 
+![image](https://github.com/jay6366/LeetCode/assets/89118231/4d140dc9-f0a2-4d9b-b3ae-9c92827e6e11)
+
+***
 
